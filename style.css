@@ -4,14 +4,13 @@
 }
 
 body {
-  background-color: #548687;
+  background-color: #0f172a;
   text-align: center;
 }
 
 .container {
   height: 70vh;
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -33,15 +32,15 @@ body {
   border: none;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
   font-size: 8vmin;
-  color: #b0413e;
-  background-color: #ffffc7;
+  color: #2563eb;
+  background-color: #e0f2fe;
 }
 
 #reset-btn {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: #191913;
-  color: #fff;
+  background-color: #00e5ff;
+  color: #000;
   border-radius: 1rem;
   border: none;
 }
@@ -56,7 +55,7 @@ body {
 }
 
 #msg {
-  color: #ffffc7;
+  color: #ffffff;
   font-size: 5vmin;
 }
 
@@ -71,4 +70,11 @@ body {
 
 .hide {
   display: none;
+}
+h1{
+    color: #00e5ff;
+    font-size: 35px;
+    margin-top: 50px ;
+    margin-bottom: 25px;
+    text-shadow: 0 0 10px #00e5ff;
 }
